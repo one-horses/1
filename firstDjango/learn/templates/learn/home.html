@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>欢迎光临</title>
+</head>
+<body>
+站点：{{ info_dict.site }} 内容：{{ info_dict.content }}\n
+【站点】：{{ info_dict.site }}
+【内容】：{{ info_dict.content }}
+{% for key,value in info_dict.items %}
+{{ key }}:{{ value }}
+{% endfor %}
+</body>
+</html>

@@ -1,0 +1,17 @@
+<body style="background-color: #F7F7F7;">
+       <lable>你好！{{ username }}</lable>
+   <form action="" enctype="multipart/form-data"  method="post">
+   <div id="header" style="margin: 40px auto;text-align: center;font-size: 36px;">
+      <label>文件上传系统</label>
+   </div>
+   <div id="body" style="width: 800px;height: 600px;background-color: white;margin: 60px auto;">
+      <div id="body1" style="display: flex; justify-content: space-around;position: relative;top: 40px;">
+         <input style="display: block; width: 300px;" class="btn btn-info" type="file" name="file" id="file" value="" />
+         <button style="display: block; width: 300px;" class="btn btn-info" type="submit">上传文件</button>
+      </div>
+      <div style="font-size: 18px;position: relative;top: 120px;left: 55px;" id="">
+         <label>{{ tip }}</label>
+      </div>
+   </div>
+   </form>
+</body>
